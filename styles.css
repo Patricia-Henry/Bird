@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+
+nav ul,
+aside {
+    list-style: none;
+    padding: 0;
+}
+
+nav a:link,
+nav a:visited {
+    border: 2px solid #eab676;
+    text-decoration: none;
+    display: block;
+    padding: 25px;
+    color: #063970;
+    box-shadow: 10px 10px 5px grey;
+
+}
