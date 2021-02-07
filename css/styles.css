@@ -85,3 +85,14 @@ article {
     background-color: #eeeee4;
    
 }
+
+article { 
+    display: grid;
+    grid-template-columns: 3fr 2fr; 
+    column-gap: 20px;
+ } 
+
+nav ul {
+    display: flex; 
+}
+
