@@ -96,3 +96,11 @@ nav ul {
     display: flex; 
 }
 
+nav li {
+    flex: 1;
+}
+
+main { 
+    display: grid;
+}
+
