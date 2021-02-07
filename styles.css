@@ -45,6 +45,14 @@ nav a:visited {
 
 }
 
+.errata {
+    border: 1px solid #17706e;
+    padding: 10px; 
+    box-shadow: 10px 10px 5px grey;
+    /* font: Poppins sans-serif;  */
+    
+}
+
 
 .sidecolumn {
     border: 1px solid #154c79; 
