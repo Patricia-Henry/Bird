@@ -39,3 +39,36 @@ nav a:visited {
     box-shadow: 10px 10px 5px grey;
 
 }
+
+
+.sidecolumn {
+    border: 1px solid #154c79; 
+    padding: 10px; 
+    background-color: rgb(234,182,118);
+    box-shadow: 10px 10px 5px grey;  
+}
+
+
+
+
+article { 
+    
+   
+    background-color: #f7f7ee
+    
+}
+
+.content {
+    
+    background-color: #f7f7ee;
+    border: 1px solid #17706e;
+    padding: 1em; 
+    box-shadow: 10px 10px 5px grey;
+    background-color: #17706e;
+
+}
+
+.content2{
+    background-color: #eeeee4;
+   
+}
