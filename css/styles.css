@@ -27,11 +27,12 @@ body{
    
 }
 
-
+/* added a box shadow */
 nav ul,
 aside {
     list-style: none;
     padding: 0;
+    box-shadow: 10px 10px 5px grey;
 }
 
 nav a:link,
@@ -92,7 +93,7 @@ p:nth-child(3) {
     background: #b6eb7a;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 60em) {
 article { 
     display: grid;
     grid-template-columns: 3fr 2fr; 
@@ -109,7 +110,7 @@ nav li {
 }
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 50em) {
 
 main { 
     display: grid;`
