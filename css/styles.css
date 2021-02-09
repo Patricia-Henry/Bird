@@ -1,23 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,300&family=Raleway:wght@500&display=swap')
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
+
+/* added header to add padding at top above the nav bar? */
 
 header {
     padding: 10px 0 10px 0;
 }
 
-
-/* added main to add padding between nav bar */
-
+/* added main to add padding betwen nav bar */
 main {
     padding: 20px 0 20px 0;
 }
 
 
-
-/* changed the font family from poppins to railway */
+/* changed the font family from poppinins to railway */
 body{
     width: 90%; 
     margin: 2em auto;
@@ -27,33 +26,37 @@ body{
    
 }
 
+
 /* added a box shadow */
-nav ul,
-aside {
+nav ul, 
+aside 
+ { 
     list-style: none;
     padding: 0;
     box-shadow: 10px 10px 5px grey;
-}
+    
+    }
 
 nav a:link,
-nav a:visited {
+nav a:visited
+ {  
     border: 2px solid #eab676;
     text-decoration: none;
     display: block;
     padding: 25px;
     color: #063970;
     box-shadow: 10px 10px 5px grey;
-
+   
 }
 
 .errata {
     border: 1px solid #17706e;
     padding: 10px; 
     box-shadow: 10px 10px 5px grey;
-    /* font: Poppins sans-serif;  */
+    /* font: Poppins sans-serif; */
+   
     
 }
-
 
 .sidecolumn {
     border: 1px solid #154c79; 
@@ -63,11 +66,11 @@ nav a:visited {
 }
 
 
-
+/* removed the bottom margin property */
 
 article { 
     
-   
+    /* margin-bottom: 1em; */
     background-color: #f7f7ee
     
 }
@@ -82,45 +85,64 @@ article {
 
 }
 
-.content2{
-    background-color: #eeeee4;
-   
-}
-
 /* added the nth child element */
 
 p:nth-child(3) { 
     background: #b6eb7a;
 }
 
-@media screen and (min-width: 50em) {
-article { 
-    display: grid;
-    grid-template-columns: 3fr 2fr; 
-    column-gap: 20px;
- } 
+/* added the p:last-child element */
 
-nav ul {
-    display: flex;
-    /* flex-direction: column;  */
+p:last-child {
+    font-size: 0.75em;
+  }
+
+  /* added the p::first letter element */
+  p::first-letter {
+    font-weight: 800;
 }
 
-nav li {
-    flex: 1;
-}
+
+.content2{
+    background-color: #eeeee4;
+   
 }
 
-@media screen and (min-width: 60em) {
 
-main { 
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    column-gap: 10px;
+
+@media screen and (min-width: 425px) {
+    article { 
+        display: grid;
+        grid-template-columns: 3fr 2fr; 
+        column-gap: 20px;
+     } 
+
+    nav ul {
+        display: flex; 
+    }
+
+    nav li {
+        flex: 1;
+    }
 }
 
-footer {
-    border-top: 1px solid #1e81b0;
-    margin-top: 4em;
-}
+@media screen and (min-width: 768px) {
+    main { 
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        column-gap: 10px;
+        
+     } 
 
-}
+
+    footer {
+        border-top: 1px solid #1e81b0;
+        margin-top: 4em;
+    }
+ }
+
+
+
+
+
+    
