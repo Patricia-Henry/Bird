@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+/* added header to add padding at top above the nav bar? */
+
+header {
+    padding: 10px 0 10px 0;
+}
 body {
     background-image: linear-gradient(120deg, #80a4aa, #a0b9c2);
     color: white;
