@@ -64,4 +64,22 @@ form button:hover{
 
 }
 
+@media screen and (min-width: 425px) {
+    
+    nav ul {
+        display: flex; 
+    }
 
+    nav li {
+        flex: 1;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    main { 
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        column-gap: 10px;
+        
+     } 
+    }
