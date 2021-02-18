@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
 *{
-    margin: 0;
-    padding: 0;
+   
     box-sizing: border-box;
 }
 
@@ -10,16 +9,27 @@
 header {
     padding: 10px 0 10px 0;
 }
-body {
-    background-image: linear-gradient(120deg, #80a4aa, #a0b9c2);
-    color: white;
-    font-family: 'Josefin Sans', sans-serif;
-    min-height: 100vh;
+
+main {
+    padding: 20px 0 20px 0;
 }
 
-ul {
-    list-style-type: none;
+body {
+    width: 90%;
+    background-image: linear-gradient(120deg, #80a4aa, #a0b9c2);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 5em;
 }
+
+nav ul, 
+aside 
+ { 
+    list-style: none;
+    padding: 0;
+    box-shadow: 10px 10px 5px grey;
+    
+    }
 
 nav a:link,
 nav a:visited
@@ -82,4 +92,9 @@ form button:hover{
         column-gap: 10px;
         
      } 
+
+     footer {
+        border-top: 1px solid #1e81b0;
+        margin-top: 4em;
     }
+}
