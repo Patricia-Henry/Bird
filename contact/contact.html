@@ -3,58 +3,37 @@
   <head>
     <meta charset="UTF-8" />
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap"
-      rel="stylesheet"
-    />
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-      crossorigin="anonymous"
-    />
-
     <title>Contact Form</title>
     <link href="css/style.css" rel="stylesheet" />
+    <script src="js/contact.js"></script>
   </head>
-
   <body>
     <div class="wrapper">
-      <header>
-        <nav class="nav">
-          <ul>
-            <li>
-              <a href="../Index.html">Home</a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/patty-henry/">Linkedin</a>
-            </li>
-            <li><a href="https://github.com/Patricia-Henry">iCODE</a></li>
-            <li>
-              <a href="">Contact</a>
-            </li>
-          </ul>
-        </nav>
-    </header>
-    <main>
-    <h1>Contact Us</h1>
+      <h3>Contact Us</h3>
+      <div id="error_message"></div>
 
-    <form id= 'Contact Us'>
-      <input type="text" class="contact-input" />
-      <!-- <button class="contact-button" type="submit">
-        <i class="fas fa-plus-square"></i>
-      </button> -->
-      <div class="name_field"></div>
-       <input type="text" class="contact-input" />
-      <div class="email_field"></div>
-       <input type="text" class="contact-input" />
-    </form>
+      <form action="" id="myform" onsubmit="return validate();">
+        <div class="input_field">
+          <input type="text" placeholder="Name" id="name" />
+        </div>
 
-    <script src="JS/practice.js"></script>
-  </main>
-  <footer>
-    <p>Patricia Henry FEWD &copy;2021</p>
-  </footer>
+        <!-- <div class="input_field">
+          <input type="text" placeholder="Subject" id="subject" />
+        </div> -->
+
+        <div class="input_field">
+          <input type="text" placeholder="Phone" id="phone" />
+        </div>
+        <div class="input_field">
+          <input type="text" placeholder="Email" id="email" />
+        </div>
+        <div class="input_field">
+          <textarea placeholder="Message" id="message"></textarea>
+        </div>
+        <div class="btn">
+          <input type="submit" />
+        </div>
+      </form>
+    </div>
   </body>
 </html>
