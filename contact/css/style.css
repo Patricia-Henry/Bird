@@ -7,8 +7,8 @@
 }
 
 body{
-    width: 20%; 
-    margin: 100px auto;
+    
+    margin: 10px auto;
     font-family: 'Raleway', sans-serif;
     
 }
@@ -17,8 +17,9 @@ body{
  
   top: 100px;
   left: 50%;
-  max-width: 400px; 
-  width: 95%;
+  max-width: 1000px; 
+  
+  width: 100%;
   background: #fff;
   padding: 25px; 
   border-radius: 10px;
@@ -52,7 +53,7 @@ body{
 
 #error_message{
   margin-bottom: 20px;
-  background: #fe8b8e;
+  background: #8bddfe;
   padding: 0px;
   text-align: center;
   font-size: 14px;
@@ -64,7 +65,7 @@ body{
   margin-top: 15px;
   padding: 10px;
   text-align: center;
-  width: 100%;
+  
   background: #f7f7ee;
   color: #332902;
   text-transform: uppercase;
@@ -88,4 +89,7 @@ body{
     border-radius: 25px;
     cursor: pointer;
   }
+
+  
+
      
