@@ -65,12 +65,6 @@ nav a:visited
     box-shadow: 10px 10px 5px grey;  
 }
 
-li {
-    font-size:
-    +;
-}
-
-
 /* removed the bottom margin property */
 
 article { 
@@ -112,8 +106,6 @@ p:last-child {
     background-color: #eeeee4;
    
 }
-
-
 
 @media screen and (min-width: 425px) {
     article { 
