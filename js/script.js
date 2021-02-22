@@ -1,8 +1,9 @@
 function myFunction() {
-    var x = document.getElementById("more");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
+  let a = document.getElementById("more");
+  if (a.style.display === "none") {
+    a.style.display = "block";
+  } else {
+    a.style.display = "none";
   }
+}
+

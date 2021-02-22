@@ -1,145 +1,121 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,300&family=Raleway:wght@500&display=swap')
-
-* {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,300&family=Raleway:wght@500&display=swap") * {
   box-sizing: border-box;
 }
 
 /* added header to add padding at top above the nav bar? */
 
 header {
-    padding: 10px 0 10px 0;
+  padding: 10px 0 10px 0;
 }
 
 /* added main to add padding betwen nav bar */
 main {
-    padding: 20px 0 20px 0;
+  padding: 20px 0 20px 0;
 }
-
 
 /* changed the font family from poppins to railway */
-body{
-    width: 90%; 
-    margin: 2em auto;
-    /* font-family: 'Poppins', sans-serif; */
-    font-family: 'Raleway', sans-serif;
-    margin-bottom: 5em;
-    
+body {
+  width: 90%;
+  margin: 2em auto;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 5em;
 }
 
-
 /* added a box shadow */
-nav ul, 
-aside 
- { 
-    list-style: none;
-    padding: 0;
-    box-shadow: 10px 10px 5px grey;
-    
-    }
+nav ul,
+aside {
+  list-style: none;
+  padding: 0;
+  box-shadow: 10px 10px 5px grey;
+}
 
 nav a:link,
-nav a:visited
- {  
-    border: 2px solid #eab676;
-    text-decoration: none;
-    display: block;
-    padding: 25px;
-    color: #063970;
-    box-shadow: 10px 10px 5px grey;
-   
+nav a:visited {
+  border: 2px solid #eab676;
+  text-decoration: none;
+  display: block;
+  padding: 25px;
+  color: #063970;
+  box-shadow: 10px 10px 5px grey;
 }
 
 .errata {
-    border: 1px solid #17706e;
-    padding: 10px; 
-    box-shadow: 10px 10px 5px grey;
-    /* font: Poppins sans-serif; */
-   
-    
+  border: 1px solid #17706e;
+  padding: 10px;
+  box-shadow: 10px 10px 5px grey;
+  /* font: Poppins sans-serif; */
 }
 
 .sidecolumn {
-    border: 1px solid #154c79; 
-    padding: 10px; 
-    background-color: rgb(234,182,118);
-    box-shadow: 10px 10px 5px grey;  
+  border: 1px solid #154c79;
+  padding: 10px;
+  background-color: rgb(234, 182, 118);
+  box-shadow: 10px 10px 5px grey;
 }
 
 /* removed the bottom margin property */
 
-article { 
-    
-    /* margin-bottom: 1em; */
-    background-color: #f7f7ee
-    
+article {
+  /* margin-bottom: 1em; */
+  background-color: #f7f7ee;
 }
 
 .content {
-    font-size: 16px;
-    /* background-color: #f7f7ee; */
-    border: 1px solid #17706e;
-    padding: 1em; 
-    box-shadow: 10px 10px 5px grey;
-    background-color: #17706e;
-
+  font-size: 16px;
+  /* background-color: #f7f7ee; */
+  border: 1px solid #17706e;
+  padding: 1em;
+  box-shadow: 10px 10px 5px grey;
+  background-color: #17706e;
 }
 
 /* added the nth child element */
 
-p:nth-child(3) { 
-    background: #b6eb7a;
+p:nth-child(3) {
+  background: #b6eb7a;
 }
 
 /* added the p:last-child element */
 
 p:last-child {
-    font-size: 1em;
-  }
-
-  /* added the p::first letter element */
-  p::first-letter {
-    font-weight: 800;
+  font-size: 1em;
 }
 
+/* added the p::first letter element */
+p::first-letter {
+  font-weight: 800;
+}
 
-.content2{
-    background-color: #eeeee4;
-   
+.content2 {
+  background-color: #eeeee4;
 }
 
 @media screen and (min-width: 425px) {
-    article { 
-        display: grid;
-        grid-template-columns: 3fr 2fr; 
-        column-gap: 20px;
-     } 
+  article {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    column-gap: 20px;
+  }
 
-    nav ul {
-        display: flex; 
-    }
+  nav ul {
+    display: flex;
+  }
 
-    nav li {
-        flex: 1;
-    }
+  nav li {
+    flex: 1;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    main { 
-        display: grid;
-        grid-template-columns: 3fr 1fr;
-        column-gap: 10px;
-        
-     } 
+  main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 10px;
+  }
 
-
-    footer {
-        border-top: 1px solid #1e81b0;
-        margin-top: 4em;
-    }
- }
-
-
-
-
-
-    
+  footer {
+    border-top: 1px solid #1e81b0;
+    margin-top: 4em;
+  }
+}
