@@ -7,7 +7,7 @@ function add_bird_to_array()
 
 {
 
-  // Returns the element with the id attriubte
+  // Returns the element with the id attribute
  array[x] = document.getElementById("bird").value;
  alert("Element: " + array[x] + " Added at index " + x);
  x++;
