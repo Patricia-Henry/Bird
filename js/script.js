@@ -7,3 +7,8 @@ function myFunction() {
   }
 }
 
+
+
+// function myFunction() {
+//     document.getElementById("myDIV").classList.toggle("hidden");
+// }

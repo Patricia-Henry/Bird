@@ -18,7 +18,7 @@ function display_array()
 {
    let e = "<hr/>";   
     
-   for (var y=0; y<array.length; y++)
+   for (let y=0; y<array.length; y++)
    {
      e += "Element " + y + " = " + array[y] + "<br/>";
    }

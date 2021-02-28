@@ -20,6 +20,7 @@
     /* font-family: 'Poppins', sans-serif; */
     font-family: "Raleway", sans-serif;
     margin-bottom: 5em;
+    background-color: #f3fbfc;
   }
   
   /* added a box shadow */
@@ -43,13 +44,11 @@
   
   .content {
     font-size: 16px;
-    /* background-color: #f7f7ee; */
     border: 1px solid #17706e;
-    padding: 1em;
+    padding: 3em;
     box-shadow: 10px 10px 5px grey;
    background-color: #eeeee4;
-
-    
+   text-align: center;
   }
   
 

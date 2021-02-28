@@ -70,6 +70,11 @@ article {
   background-color: #17706e;
 }
 
+/* .hidden { display:none; } */
+/* <div id="myDIV" class="hidden">This is my DIV element.</div> */
+
+/* Above to test */
+
 /* added the nth child element */
 
 p:nth-child(3) {
