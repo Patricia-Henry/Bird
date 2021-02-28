@@ -59,6 +59,11 @@
     background-color: #eea153;
    
     margin-bottom: 10em;
+
+}
+
+input[type="text"] {
+    width: 100px;
 }
   
   @media screen and (min-width: 425px) {

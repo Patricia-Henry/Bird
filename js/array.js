@@ -20,7 +20,7 @@ function display_array()
     
    for (let y=0; y<array.length; y++)
    {
-     a += "Bird " + y + " = " + array[y] + "<br/>";
+     a += "Bird at location  " + y + " = " + array[y] + "<br/>";
    }
    document.getElementById("Result").innerHTML = a;
 }
