@@ -1,4 +1,4 @@
-let x = 0;
+let i = 0;
 let array = Array();
 
 // Creating an empty array
@@ -8,19 +8,19 @@ function add_bird_to_array()
 {
 
   // Returns the element with the id attribute
- array[x] = document.getElementById("bird").value;
- alert("Element: " + array[x] + " Added at index " + x);
- x++;
+ array[i] = document.getElementById("bird").value;
+ alert("Bird: " + array[i] + " Added at location " + i);
+ i++;
  document.getElementById("bird").value = "";
 }
 
 function display_array()
 {
-   let e = "<hr/>";   
+   let a = "<hr/>";   
     
    for (let y=0; y<array.length; y++)
    {
-     e += "Element " + y + " = " + array[y] + "<br/>";
+     a += "Bird " + y + " = " + array[y] + "<br/>";
    }
-   document.getElementById("Result").innerHTML = e;
+   document.getElementById("Result").innerHTML = a;
 }

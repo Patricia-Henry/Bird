@@ -50,8 +50,16 @@
    background-color: #eeeee4;
    text-align: center;
   }
-  
 
+  h4 {
+      margin-top: 5em;
+  }
+  
+#button1, #button2 {
+    background-color: #eea153;
+   
+    margin-bottom: 10em;
+}
   
   @media screen and (min-width: 425px) {
     article {
