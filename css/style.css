@@ -80,11 +80,7 @@ input[type="text"] {
   }
   
   @media screen and (min-width: 768px) {
-    /* main {
-      display: grid;
-      column-gap: 10px;
-      grid-template-columns: 3fr;
-    } */
+ 
   
     footer {
       border-top: 1px solid #1e81b0;
