@@ -63,16 +63,10 @@
 }
 
 input[type="text"] {
-    width: 120px;
+    width: 110px;
 }
   
   @media screen and (min-width: 425px) {
-    article {
-      display: grid;
-      grid-template-columns: 3fr 2fr;
-      column-gap: 20px;
-      
-    }
   
     nav ul {
       display: flex;
@@ -81,15 +75,16 @@ input[type="text"] {
     nav li {
       flex: 1;
     }
+
+
   }
   
   @media screen and (min-width: 768px) {
-    main {
+    /* main {
       display: grid;
-      /* grid-template-columns: 3fr 1fr; */
       column-gap: 10px;
       grid-template-columns: 3fr;
-    }
+    } */
   
     footer {
       border-top: 1px solid #1e81b0;
