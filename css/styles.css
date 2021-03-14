@@ -96,11 +96,14 @@ p::first-letter {
   background-color: #eeeee4;
 }
 
+
+
 @media screen and (min-width: 425px) {
   article {
     display: grid;
     grid-template-columns: 3fr 2fr;
     column-gap: 20px;
+    
   }
 
   nav ul {
@@ -117,6 +120,7 @@ p::first-letter {
     display: grid;
     grid-template-columns: 3fr 1fr;
     column-gap: 10px;
+   
   }
 
  
