@@ -101,7 +101,7 @@ p::first-letter {
 @media screen and (min-width: 425px) {
   article {
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 4fr 3fr;
     column-gap: 20px;
     
   }
