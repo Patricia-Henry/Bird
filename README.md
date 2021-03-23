@@ -11,8 +11,8 @@ Also origins of these phrases and their usage.
 
 
 ## Javascript
-* Added the JS Array where an end user can input names of birds and then click show to read the names which were input for the, Create and populate a JavaScript array with one or more values and display the contents of some or all of the array on your page requirement. 
-* Added the press to hide or show content on main page to meet the requirement: Show/hide one or more content areas or elements on your site through clicking a button or some other user interaction - must be done with some JavaScript code. 
+* Added the JS Array where an end user can input names of birds and then click show to read the names which were input. This is for the requiremnet: Create and populate a JavaScript array with one or more values and display the contents of some or all of the array on your page requirement. 
+* Added the,  press to hide or show content,  on main page to meet the requirement: Show/hide one or more content areas or elements on your site through clicking a button or some other user interaction - must be done with some JavaScript code. 
 
 ## Media Queries
 * Added 3 media Queries. One media query changes the nav menu when viewd at smsmaller screens. One media query is set to keep the two buttons (for input and show on the array page) together even when viewed at smaller screens, and  one array which arranges the content on the main page so that it can still be viewed at smaller screens. 
