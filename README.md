@@ -15,7 +15,7 @@ Also origins of these phrases and their usage.
 * Added the,  press to hide or show content,  on main page to meet the requirement: Show/hide one or more content areas or elements on your site through clicking a button or some other user interaction - must be done with some JavaScript code. 
 
 ## Media Queries
-* Must include a minimum of 2 media queries. I have added 3 media Queries. One media query changes the nav menu when viewed at smaller screens. One media query is set to keep the two buttons (for input and show on the array page) together even when viewed at smaller screens. And one media query changes the layout on the main page to make it viewable at different screen sizes. 
+* Must include a minimum of 2 media queries. I have added 3 media Queries. One media query changes the nav menu, from horizontal to vertical, when viewed at smaller screens. One media query is set to keep the two buttons (for input and show on the array page) together even when viewed at smaller screens. And one media query changes the layout on the main page to make it viewable at different screen sizes. 
 
 ## Git Hub Commits
-* Surpassed the minmum of 5 commits. Currently at 71 commits.
+* Surpassed the minmum of 5 commits. Currently at 72 commits.
