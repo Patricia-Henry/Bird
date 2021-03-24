@@ -1,7 +1,7 @@
 # Bird
-Sayings and bird phrases
-Such as, Birds of a Feather,  and A little Bird Told Me. 
-Also origins of these phrases and their usage. 
+A website consiting of things such as bird phrases, like 
+Birds of a Feather,  and A little Bird Told Me. 
+Also included are origins of bird phrases and ways they have been used. 
 
 ---
 ## CSS Features List:
@@ -18,4 +18,4 @@ Also origins of these phrases and their usage.
 * Must include a minimum of 2 media queries. I have added 3 media Queries. One media query changes the nav menu, from horizontal to vertical, when viewed at smaller screens. One media query is set to keep the two buttons (for input and show on the array page) together even when viewed at smaller screens. And one media query changes the layout on the main page to make it viewable at different screen sizes. 
 
 ## Git Hub Commits
-* Surpassed the minmum of 5 commits. Currently at 72 commits.
+* Surpassed the minmum of 5 commits. Currently at 73 commits.
